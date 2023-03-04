@@ -9,11 +9,9 @@ public class Exercicio02 {
 			
 			int numeros = 0, pares=0, impares=0, i;
 			
-			Scanner entrada = new Scanner(System.in);
-			
 			for(i=0; i<10; i++) {
 				System.out.println("Por favor, digite um número: ");
-				numeros = entrada.nextInt();  
+				numeros = new Scanner(System.in).nextInt();  
 				
 				if(numeros % 2 ==0) {
 					pares++;				
